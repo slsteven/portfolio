@@ -6,7 +6,7 @@ var morgan  = require('morgan');
 
 var hbs = require('hbs');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 
 app.set('views', './app/express/views');
 app.set('view engine', 'html');
