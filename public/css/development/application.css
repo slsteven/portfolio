@@ -393,7 +393,8 @@ section.contact {
         color: #6e6e6e;
         font-size: 15px;
         line-height: 22.5px;
-        text-align: center; }
+        text-align: center;
+        padding-bottom: 2px; }
     .portfolio .items .portfolio-item .links {
       color: #6e6e6e;
       margin-top: 15px;
@@ -404,5 +405,12 @@ section.contact {
         .portfolio .items .portfolio-item .links a:hover {
           color: #6d94c1;
           text-decoration: underline; }
-
+    .portfolio .items .portfolio-item .subtitle p {
+      color: #6e6e6e;
+      font-size: 13px;
+      line-height: 22.5px;
+      text-align: center;
+      padding-bottom: 2px; }
+  
+    
 /*# sourceMappingURL=application.css.map */

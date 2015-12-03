@@ -38,6 +38,7 @@ var About = React.createClass({
             </div>
             <div className="about-text">
               <p>{Data.about.text}</p>
+              <p>{Data.about.text2}</p>
             </div>
           </div>
         </div>

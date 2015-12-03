@@ -43,9 +43,15 @@ var PortfolioItem = React.createClass({
         <div className="description">
           <div className="border"></div>
           <p>{this.props.item.description}</p>
+            <div className="subtitle">
+              <p>{this.props.item.tech}</p>
+              <p><a href="{websiteLink}">{this.props.item.subtitle2}</a></p>
+            </div>
         </div>
         <div className="links">
-          {websiteLink}{divider}{appStoreLink}
+          {websiteLink}
+          <br></br>
+          {appStoreLink}
         </div>
       </div>
     );
