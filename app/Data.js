@@ -1,12 +1,12 @@
 var Data = {
   about: {
-    backgroundImage: 'img/hero_background.png',
+    backgroundImage: 'img/hero_background.jpg',
     hello: 'Persistence wears down resistance.',
     image: 'img/default.jpg',
     name: 'Steven Lam',
     subtitle: 'Full-Stack Web Developer / Entrepreneur',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni totam ratione id harum consectetur veritatis! Ipsum assumenda, iure totam facilis odit minus, fuga voluptatum vel soluta, culpa itaque praesentium nobis.',
-    text2: 'www.InkLaundry.com - Small business that designs and creates custom apparel'
+    text: 'For three years I worked as a Process Engineer which gave me the opportunity to develop as a problem solver, interact with customers,  and gain scientific and technical analysis skills. Joining the company as one of the early employees I got to see all phases of the startup such as expansion, product research and development, customer relationships, and fundraising.',
+    text2: 'From that experience I found that my ideal role would involve working between business and technology so I decided to become a Full Stack Web Developer. Coding allows allows me to use cutting-edge technology to solve business problems in effective and scalable ways.'
   },
   contact: {
     items: []
@@ -69,12 +69,12 @@ Data.portfolio.items['Borrow'] = {
     backgroundColor: 'rgb(41, 184, 229)'
   },
   subtitle: 'Python',
-  tech: 'APIs: Twilio and Stripe Payment',
+  tech: 'Python, Flask, Twillio API, Stripe API',
   websiteUrl: 'Borrow',
 };
 Data.portfolio.items['VentureScore'] = {
   appStoreUrl: null,
-  description: 'An alogorithm that determines how fit a person is for a location based on their interests.',
+  description: 'An alogorithm that determines how fit a person is for a location based on their interests. 4 person project, Coding Dojo Rails Hackathon Winner.',
   count:    0,
   id:       'VentureScore',
   imageUrl: 'img/dunzo.png',
@@ -84,18 +84,18 @@ Data.portfolio.items['VentureScore'] = {
   },
   subtitle: 'Ruby on Rails',
   subtitle2: 'Emirates Travel hackathon.',
-  tech: 'APIs: Google(maps, distance matrix, POI), Twitter passport, and Xola',
-  websiteUrl: 'www.emirateshackathon.com',
+  tech: 'Ruby on Rails, APIs: Google(maps, distance matrix, POI), Twitter passport, and Xola',
+  websiteUrl: '',
 };
 Data.portfolio.items['ClassR'] = {
   appStoreUrl: null,
-  description: 'A website for teachers to share curriculum with each other. Teachers can pick and pull content to create and improve their own master plan.',
+  description: 'A website for teachers to share curriculum with each other. Teachers can pick and pull content to create and improve their own master plan. 3 person project, created for 2015 HackingEdu hackathon.',
   count:    0,
   id:       'ClassR',
-  imageUrl: '',
+  imageUrl: 'img/classr.png',
   name:     'ClassR',
   style: {
-    backgroundColor: 'rgb(0, 0, 0)'
+    backgroundColor: 'rgb(0, 142, 146)'
   },
   subtitle: 'Ruby on Rails',
   subtitle2: '2015 HackingEdu hackathon.',
@@ -107,10 +107,10 @@ Data.portfolio.items['AlgoApp'] = {
   description: 'A database of algorithms with various solutions posted by a community.',
   count:    0,
   id:       'AlgoApp',
-  imageUrl: 'img/algo_app.png',
+  imageUrl: 'img/algoapp.png',
   name:     'AlgoApp',
   style: {
-    backgroundColor: 'rgb(207, 4, 4)'
+    backgroundColor: 'rgb(224, 137, 137)'
   },
   subtitle: 'MongoDB / Express / AngularJS / Node',
   tech: 'APIs: Facebook O-auth and ckeditor',
@@ -136,7 +136,7 @@ Data.portfolio.items['Tabbs'] = {
   description: 'Text message between you and any local business. Make dinner reservations, book hair appointments, get prices, and check in-store availability all without ever placing a phone call.',
   count:    0,
   id:       'Tabbs',
-  imageUrl: 'img/flashingdeals.png',
+  imageUrl: 'img/tabbs.png',
   name:     'Tabbs',
   style: {
     backgroundColor: 'rgb(214, 249, 255)'

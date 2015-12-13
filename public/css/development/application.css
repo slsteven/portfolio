@@ -142,7 +142,7 @@ footer {
     .about .person .person-body .about-text {
       margin: 0 auto;
       margin-top: 20px;
-      max-width: 400px;
+      max-width: 500px;
       width: 100%; }
       .about .person .person-body .about-text p {
         color: #6e6e6e;
@@ -411,6 +411,6 @@ section.contact {
       line-height: 22.5px;
       text-align: center;
       padding-bottom: 2px; }
-  
-    
+
+
 /*# sourceMappingURL=application.css.map */
