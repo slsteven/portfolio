@@ -6,7 +6,8 @@ var Data = {
     name: 'Steven Lam',
     subtitle: 'Full-Stack Web Developer / Entrepreneur',
     text: 'For three years I worked as a Process Engineer which gave me the opportunity to develop as a problem solver, interact with customers,  and gain scientific and technical analysis skills. Joining the company as one of the early employees I got to see all phases of the startup such as expansion, product research and development, customer relationships, and fundraising.',
-    text2: 'From that experience I found that my ideal role would involve working between business and technology so I decided to become a Full Stack Web Developer. Coding allows allows me to use cutting-edge technology to solve business problems in effective and scalable ways.'
+    text2: 'From that experience I found that my ideal role would involve working between business and technology so I decided to enter the world of web development. This change has proven to be the best decision I have made. Web development offers the fulfillment and satisfaction that other fields could not. For me, coding never seems like work and that is probably because there is always so much to learn and discover. The endless resources allow me to consistently build better and better applications that solve business related problems in effective and scalable ways.',
+    text3: 'The project I am currently working on is called Tabbs. It is also the project I am most proud of because it incorporates all of the technology I have learned. In addition Tabbs can serve well as a real world application! '
   },
   contact: {
     items: []
@@ -57,6 +58,54 @@ Data.contact.items['email'] = {
   imageUrl: 'img/email.png',
   name:     'Email'
 }
+Data.portfolio.items['Tabbs'] = {
+  appStoreUrl: null,
+  description: 'Tabbs is a platform that provides real time messaging for businesses and their consumers. The messaging system utilizes Twilios API for sms, and web sockets for client and server communication. In addition, we built a dashboard to allow businesses to schedule events, conduct internal messaging, edit accounts, and analytics based on message response times.',
+  count:    0,
+  id:       'Tabbs',
+  imageUrl: 'img/tabbs.png',
+  name:     'Tabbs',
+  style: {
+    backgroundColor: 'rgb(214, 249, 255)'
+  },
+  subtitle: 'MEAN Stack',
+  subtitle2: 'Mongodb, Javascript, Express.JS, AngularJS, Node.JS, HTML, CSS, Socket.io, Twillio API, Yelp API',
+  tech: '*Still in development.*',
+  websiteUrl: '',
+};
+
+
+Data.portfolio.items['VentureScore'] = {
+  appStoreUrl: null,
+  description: 'Application that takes a users destination and personal interests (bars, museums, shopping, transit, etc.) to compute a score on how fit that location might be.',
+  count:    0,
+  id:       'VentureScore',
+  imageUrl: 'img/dunzo.png',
+  name:     'VentureScore',
+  style: {
+    backgroundColor: 'rgb(0, 0, 0)'
+  },
+  subtitle: 'Ruby on Rails',
+  subtitle2: 'Postgres, HTML, CSS, JQuery UI, Materialize,  Google Maps API, Google Distance Matrix API,  Google Places API, XOLA API, Twitter Passport API, Highcharts',
+  tech: '',
+  websiteUrl: '',
+};
+
+Data.portfolio.items['AlgoApp'] = {
+  appStoreUrl: null,
+  description: 'Platform for sharing coding algorithms along with solutions posted by a community. Similar to Stack Overflow, users can post algos to get help, browse different solutions, leave comments, and upvote or downvote.',
+  count:    0,
+  id:       'AlgoApp',
+  imageUrl: 'img/algoapp.png',
+  name:     'AlgoApp',
+  style: {
+    backgroundColor: 'rgb(224, 137, 137)'
+  },
+  subtitle: 'MEAN Stack',
+  subtitle2: 'MongoDB, Javascript, Express, Angularjs, Node.js, HTML, CSS, Heroku, Mongolabs, Ckeditor, Bootstrap, Facebook O-auth',
+  tech: '',
+  websiteUrl: '',
+};
 
 Data.portfolio.items['Borrow'] = {
   appStoreUrl: null,
@@ -69,22 +118,7 @@ Data.portfolio.items['Borrow'] = {
     backgroundColor: 'rgb(41, 184, 229)'
   },
   subtitle: 'Python',
-  tech: 'Python, Flask, Twillio API, Stripe API',
-  websiteUrl: 'Borrow',
-};
-Data.portfolio.items['VentureScore'] = {
-  appStoreUrl: null,
-  description: 'An alogorithm that determines how fit a person is for a location based on their interests. 4 person project, Coding Dojo Rails Hackathon Winner.',
-  count:    0,
-  id:       'VentureScore',
-  imageUrl: 'img/dunzo.png',
-  name:     'VentureScore',
-  style: {
-    backgroundColor: 'rgb(0, 0, 0)'
-  },
-  subtitle: 'Ruby on Rails',
-  subtitle2: 'Emirates Travel hackathon.',
-  tech: 'Ruby on Rails, APIs: Google(maps, distance matrix, POI), Twitter passport, and Xola',
+  subtitle2: 'Python, Flask, Twillio API, Stripe API',
   websiteUrl: '',
 };
 Data.portfolio.items['ClassR'] = {
@@ -98,26 +132,13 @@ Data.portfolio.items['ClassR'] = {
     backgroundColor: 'rgb(0, 142, 146)'
   },
   subtitle: 'Ruby on Rails',
-  subtitle2: '2015 HackingEdu hackathon.',
-  tech: 'APIs: chegg, target, facebook login.',
-  websiteUrl: 'http://hackingedu.co',
+  subtitle2: 'APIs: chegg, target, facebook login.',
+  tech: '',
+  websiteUrl: '',
 };
-Data.portfolio.items['AlgoApp'] = {
-  appStoreUrl: null,
-  description: 'A database of algorithms with various solutions posted by a community.',
-  count:    0,
-  id:       'AlgoApp',
-  imageUrl: 'img/algoapp.png',
-  name:     'AlgoApp',
-  style: {
-    backgroundColor: 'rgb(224, 137, 137)'
-  },
-  subtitle: 'MongoDB / Express / AngularJS / Node',
-  tech: 'APIs: Facebook O-auth and ckeditor',
-  websiteUrl: '#',
-};
+
 Data.portfolio.items['RideSnap'] = {
-  appStoreUrl: 'null',
+  appStoreUrl: null,
   description: 'Buy and sell cars without the hassle of going to a dealership or doing it yourself.',
   count:    0,
   id:       'RideSnap',
@@ -127,23 +148,10 @@ Data.portfolio.items['RideSnap'] = {
     backgroundColor: 'rgb(0, 0, 0)'
   },
   subtitle: 'Ruby on Rails',
-  subtitle2: "Hackamotive'15 hackathon",
-  tech: 'APIs: Edmunds and Carvoyant',
-  websiteUrl: 'http://www.hackomotive.com',
+  subtitle2: "APIs: Edmunds and Carvoyant",
+  tech: '',
 };
-Data.portfolio.items['Tabbs'] = {
-  appStoreUrl: null,
-  description: 'Text message between you and any local business. Make dinner reservations, book hair appointments, get prices, and check in-store availability all without ever placing a phone call.',
-  count:    0,
-  id:       'Tabbs',
-  imageUrl: 'img/tabbs.png',
-  name:     'Tabbs',
-  style: {
-    backgroundColor: 'rgb(214, 249, 255)'
-  },
-  subtitle: 'Ruby on Rails',
-  websiteUrl: '#',
-};
+
 
 
 //add info for portfolio
