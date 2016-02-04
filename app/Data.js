@@ -5,10 +5,7 @@ var Data = {
     image: 'img/default.jpg',
     name: 'Steven Lam',
     subtitle: 'Full-Stack Web Developer / Entrepreneur'},
-  //   text: 'For three years I worked as a Process Engineer which gave me the opportunity to develop as a problem solver, interact with customers,  and gain scientific and technical analysis skills. Joining the company as one of the early employees I got to see all phases of the startup such as expansion, product research and development, customer relationships, and fundraising.',
-  //   text2: 'From that experience I found that my ideal role would involve working between business and technology so I decided to enter the world of web development. This change has proven to be the best decision I have made. Web development offers the fulfillment and satisfaction that other fields could not. For me, coding never seems like work and that is probably because there is always so much to learn and discover. The endless resources allow me to consistently build better and better applications that solve business related problems in effective and scalable ways.',
-  //   text3: 'The project I am currently working on is called Tabbs. It is also the project I am most proud of because it incorporates all of the technology I have learned. Plus it can be a really cool service. '
-  // },
+
   contact: {
     items: []
   },
