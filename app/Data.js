@@ -4,8 +4,9 @@ var Data = {
     hello: 'Persistence wears down resistance.',
     image: 'img/default.jpg',
     name: 'Steven Lam',
-    subtitle: 'Full-Stack Web Developer / Entrepreneur'},
-
+    subtitle: 'Full-Stack Web Developer / Entrepreneur',
+  text: 'I developing web applications that solve business related problems using Ruby on Rails and mean stack (Javascript, Nodejs, AngularJS, Express, MongoDB). I have found that web development offers the fulfillment and satisfaction that other fields could not. For me, coding never seems like work and that is probably because there is always so much to learn and discover. It is refreshing how the endless resources allow me to consistently build better and better applications.'
+  },
   contact: {
     items: []
   },
