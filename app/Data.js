@@ -5,7 +5,7 @@ var Data = {
     image: 'img/default.jpg',
     name: 'Steven Lam',
     subtitle: 'Full-Stack Web Developer / Entrepreneur',
-  text: 'I developing web applications that solve business related problems using Ruby on Rails and mean stack (Javascript, Nodejs, AngularJS, Express, MongoDB). I have found that web development offers the fulfillment and satisfaction that other fields could not. For me, coding never seems like work and that is probably because there is always so much to learn and discover. It is refreshing how the endless resources allow me to consistently build better and better applications.'
+  text: 'I enjoy developing web applications to solve business related problems using Ruby on Rails and mean stack (Javascript, Nodejs, AngularJS, Express, MongoDB). I have found that web development offers the fulfillment and satisfaction that other fields could not. For me, coding never seems like work and that is probably because there is always so much to learn and discover. It is refreshing how the endless resources allow me to consistently build better and better applications.'
   },
   contact: {
     items: []
@@ -75,7 +75,7 @@ Data.portfolio.items['Tabbs'] = {
 
 Data.portfolio.items['VentureScore'] = {
   appStoreUrl: null,
-  description: 'Application that takes a users destination and personal interests (bars, museums, shopping, transit, etc.) to compute a score on how fit that location might be.',
+  description: 'Find the best hotel location based on your interests before traveling! Application takes a users destination and personal interests (bars, museums, shopping, transit, etc.) as inputs and computes a score out of 100 for that location. ',
   count:    0,
   id:       'VentureScore',
   imageUrl: 'img/dunzo.png',
@@ -91,7 +91,7 @@ Data.portfolio.items['VentureScore'] = {
 
 Data.portfolio.items['AlgoApp'] = {
   appStoreUrl: null,
-  description: 'Platform for sharing coding algorithms along with solutions posted by a community. Similar to Stack Overflow, users can post algos to get help, browse different solutions, leave comments, and upvote or downvote.',
+  description: 'Similar to StackOverflow but tailored for coding algorithms such as arrays, strings, sorts, and data structures. Users can share solutions, upvote, downvote, and post more problems.',
   count:    0,
   id:       'AlgoApp',
   imageUrl: 'img/algoapp.png',
@@ -121,7 +121,7 @@ Data.portfolio.items['Borrow'] = {
 };
 Data.portfolio.items['ClassR'] = {
   appStoreUrl: null,
-  description: 'A website for teachers to share curriculum with each other. Teachers can pick and pull content to create and improve their own master plan. 3 person project, created for 2015 HackingEdu hackathon.',
+  description: 'Web platform for teachers to share, rate, and view class curricula to enhance or get ideas for their own lesson plans. 3 person project, created for 2015 HackingEdu hackathon.',
   count:    0,
   id:       'ClassR',
   imageUrl: 'img/classr.png',
@@ -137,7 +137,7 @@ Data.portfolio.items['ClassR'] = {
 
 Data.portfolio.items['RideSnap'] = {
   appStoreUrl: null,
-  description: 'Buy and sell cars without the hassle of going to a dealership or doing it yourself.',
+  description: 'RideSnap helps used car buyers and sellers save time and money by managing the entire process.',
   count:    0,
   id:       'RideSnap',
   imageUrl: 'img/black_logo.png',
